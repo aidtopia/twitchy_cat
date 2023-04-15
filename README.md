@@ -1,7 +1,10 @@
-# Twitchy Cat
+# Twitchy Cat Assembly
 Adrian McCarthy (mechanics)  
-Suzanne Coberly (corpsing)  
 based on Oak Lane Cemetery's [Undead Kitty][1]
+
+This covers the assembly of the Twitchy Cat mechanism.  Suzanne Coberly has an excellent set of instructions for posing and corpsing the cat.  I'll add a link to that soon.
+
+See https://www.github.com/aidtopia/twitchy_cat for the latest version of this document.
 
 ## The Effect
 
@@ -16,14 +19,20 @@ A rotting corpse of a cat sporadically kicks its hind legs.  It's gruesome and m
 * 8" cable ties
 * [12V/6A DC power supply][6]
 * [DC barrel connectors][7]
-* 1N4001 or similar rectifier diode (recommended)
 * inline fuse holder with 5A fuse (recommended)
 
 But that's not all!
 
 I recommend soldering wires and insulating them with heat-shrink tubing.  If soldering is not your thing, you can use [heat-shrink butt-splice connectors][8] that include a ring of low temperature solder in the middle.
 
-You will also need a controller of some kind.  I'll cover how to put together a push button for manual control, using a [3D-printed case][9].  I'll also show how you can wire your cat to various prop controllers.
+You will also need a controller of some kind.  I'll cover how to put together a push button for manual control, using a [3D-printed case][9].  For the push button, you'll need:
+
+* [DC barrel connectors][7]
+* [3D-printed button case][9]
+* [push button][11]
+* 1N4001 or similar rectifier diode (recommended)
+
+I'll also show how you can wire your cat to various prop controllers.
 
 To make your skeleton look good and creepy, you'll need additional supplies covered in the corpsing document.
 
@@ -35,9 +44,11 @@ The Amazon link provided is a bit of a pot luck.  That supplier seems to have tw
 
 * The WHITE skeletons are cast in a glossy white plastic.  They have a wire in the rubbery tail to make it poseable, and the pelvis orientation is anatomically correct.
 
-* The GREEN skeletons are cast in a matte off-white plastic and dry-brushed with a greenish tint.  They have no wire in the tail.  The pelvis is upside down (the spine passes under the pelvic bone).  (The particular greenish tint looks like it might be glow-in-the-dark paint, but it's not.)
+* The GREEN skeletons are cast in a matte off-white plastic and dry-brushed with a greenish tint.  They have no wire in the tail.  The pelvis is upside down (the spine passes under the pelvic bone).  The greenish tint looks like it might be glow-in-the-dark paint, but&mdash;alas&mdash;it's not.
 
-**Either will work for this project**.  I'll try to point out the differences in the modifications needed based on which skeleton you have.
+![Two models of cat skeleton](images/green_and_white.jpg "The green and white cat skeletons")
+
+**Either will work for this project.**
 
 ### Linkage Options
 
@@ -60,8 +71,8 @@ To use the ROD LINK you will need the brass rod the comes with the door lock act
 
 ## Tools
 
-* phillips screwdrivers, #0 and #1
-* something pointing to make a small divot in the plastic
+* phillips screwdrivers, #0, #1, and #2
+* something pointy to make a small divot in the plastic
 * a drill
 * 1/16" drill bit
 * a small hacksaw or similar
@@ -79,13 +90,9 @@ For the ROD LINK you will also need:
 * a hammer
 * small bolt cutters or a hack saw
 
-For the PRINTED LINK you will also need:
-
-* a #2 phillips screwdriver
-
 ## Steps
 
-NOTE:  These steps assume the DISPLAY SIDE is the cat's left side.  If you corpse the cat all around, it doesn't much matter which side is the display side.  You might, however, want to do thorough corpsing on the display side and less on the other non-display side so you can keep access to the mechanism.
+NOTE:  These steps assume the DISPLAY SIDE is the cat's left side.  If you corpse the cat all around, it doesn't much matter which side is the display side.  You might, however, want to do thorough corpsing on the display side and less on the other side so you can keep access to the mechanism.
 
 ### Posing the Tail
 
@@ -98,8 +105,6 @@ GREEN skeletons do not have a wire in the tail, but there is a slight curl to it
 * Pull off the right side of the hip and its leg.
 * Swivel the left side to revealing another small screw into the side of the spine just above  the tail.  Loosen that and remove the hip.
 * Now you can remove the tail, flip it 180 degrees, and reinstall it.
-
-[photo showing the screw positions for the GREEN tail.
 
 **Pro tip:**  Consider postponing reassembly of the hips until after you've got the spine hinged.  Just don't lose the screws!
 
@@ -117,7 +122,7 @@ With the cat on its back, lay the open hinge on the spine, just beyond the last 
 
 The pin of the hinge should be on the abdominal side, not against the spine itself.  The pin should be oriented so that it's perpendicular to the spine.  The flaps of the hinge with the screw holes should be on the wider parts of the vertabrae with the pin aligned with the narrow space in between.  
 
-[photo or diagram]
+![Hinge position and orientation](images/hinge_orientation.jpg "Hinge position and orientation")
 
 **Pro tip:**  Use some tape to temporarily hold the hinge in place.
 
@@ -137,11 +142,13 @@ Turn the cat upright and cut through the spine in line with the center of the hi
 
 Once you cut through, the hinge should allow you to bend the back of the spine toward the front of the cat.  If there's any binding, you might try shaving a little plastic away at the cut line.
 
+![The spine has been cut at the hinge](images/spine_cut.jpg "spine severed at the hinge")
+
 ### Preparing the Actuator
 
 #### Adding the Power Connector
 
-Snip off the connectors on the actuator's wires.
+Snip the connectors off the actuator's wires.
 
 When power is applied, we want the actuator to extend, not retract.  With the actuators I use, the proper connections are:
 
@@ -154,11 +161,15 @@ Select a DC barrel receptacle.  Make sure you use the kind that your power suppl
 
 Connect the wires to the receptacle using your favorite technique.  Proper soldering makes the best electrical connection, and you can then insulate that connection with heat shrink tubing.  If soldering is not in your skill set, you can use the heat shrink butt-splice connectors that have the low temperature solder ring on the inside.  The actuator uses a remarkably high current, so it's important to have a good electrical connection.
 
+![Actuator Wiring](images/actuator_wiring.jpg "Wiring a barrel connector to the actuator")
+
 Note that DC barrel receptacles are not waterproof.  If you intend to operate your twitchy cat in a damp environment, substitute waterproof connectors or skip the connectors altogether and splice long wires all the way back to the controller.  In that case, make sure you use waterproof heat shrink to insulate the connections.
 
 #### Pre-installing the Screw
 
 Hold the actuator in your hand as though it's a sci-fi ray gun.  The long axis is the barrel of the gun, and the short one is the handle.  The moving end of the actuator should be pointing away from you.  Mark the forward mounting hole on your right side.  That's the one we're going to use to anchor the return spring.
+
+![Locating the screw to anchor the return spring on the actuator](images/spring_anchor_point.jpg "Locating the screw to anchor the return spring on the actuator")
 
 Screw one of the larger screws that came with your actuator into the marked mounting hole.  The hole is not threaded, but the screws are self tapping.  Start slowly with a hand screw driver.  Leave the head of the screw protruding 1/8" to 1/4".  Later, this will be the mounting point for one end of the spring.
 
@@ -168,29 +179,53 @@ For the ROD LINK, skip this step.
 
 For the PRINTED LINK, slip a cable tie through the channel near the end of the link.  Push most of the tie through, so that the "head" of the tie is close to the side of the link with the wing.  Do not zip the tie closed.  That'll come later.
 
+![Note the orientation of the cable tie in the 3D printed link](images/zip_tie_in_printed_link.jpg "Load an 8 inch cable tie in the channel until the head is near the wing")
+
 As you hold the #6 hex nut in the hexagonal recess in the link, slip the link over the "nose" of the actuator and secure with the half-inch screw.  Do not over-tighten.  The link should swing freely at the end of the actuator.
+
+![The printed link attached to the actuator](images/printed_link_on_actuator.jpg "The printed link is attached to the nose of the actuator with a #6 machine screw and hex nut.")
 
 ### Installing the Actuator
 
 The door lock actuator is installed in the rib cage.  I tried several different orientations, but the one used by Oak Lane Cemetery worked the best.
 
+![Orientating the actuator](images/orientation_of_actuator_in_rib_cage.jpg "Orienting the actuator")
+
 We're going to hold it in place with two cable ties.  In most cases, an 8" cable tie is sufficient, but some found they needed an 11" one.  The cable ties are going to encirle the long axis of the actuator to hold it against the sternum.  And they are going to be positioned one either side of the short cylinder part to keep the actuator from sliding forward and backward.
 
 This step also requires a little dexterity.  As with the hinge step, you may find it much easier to leave the back legs off for now.  Also remember the cable ties are cheap and if you mess up, you can just snip them off and try again.
 
-First insert a cable tie through last rib space below the shoulder until it extend out the same space on the other side.  Push most of the slack in, the zip tie will flex upward until it touches the spine, leaving a clear path for the actuator.
+First insert a cable tie through last rib space below the shoulder until it exits the rib cage on the other side.  Push most of the slack in, the zip tie will flex upward until it touches the spine, leaving a clear path for the actuator.
+
+![Pushing the slack for the front zip tie makes room to insert the actuator](images/positioning_forward_zip_tie.jpg "The front zip tie is the tricky one")
 
 Insert the actuator into the rib cage, wires first.  Guide the wires through the collar bone.  When it's in as deep as it can go, zip the cable tie so that it holds the actuator against the inside of the sternum.
 
 Feed the second zip tie between the ribs and cinch it down.
 
-The actuator should now be inline and up against the sternum.  If it twists or wiggles side-to-side, tighten up the cable ties.  If it slides forward and backward, check that you have a tie right in front of and another right behind the cylindrical part of the actuator (the handle of your ray gun).  If it's not firmly in place, snip the ties and try again.
+![Securing the actuator with two cable ties](images/actuator_cable_ties.jpg "Securing the actuator with two cable ties")
+
+The actuator should now be in line with the sternum.  If it twists or wiggles side-to-side, tighten up the cable ties.  If it slides forward and backward, check that you have a tie right in front of and another right behind the cylindrical part of the actuator (the handle of your ray gun).  If it's not firmly in place, snip the ties and try again.
+
+![Ensure the actuator is aligned with the sternum](images/actuator_aligned_with_sternum.jpg "Ensure the actuator is aligned with the sternum")
 
 Also ensure that the wires have come through the collar bone.
 
-### Reattach the Rear Legs
+### Attaching the Printed Link to the Spine
 
-If you removed the rear legs earlier, now is the time to reattach them.  Just reverse the steps given at the beginning.  If you lost a screw or you break something, don't fret.  Cable ties, hot glue, sculpting epoxy can usually put Humpty Dumpty back together again.  Kludges can be hidden during corpsing.
+For the ROD LINK, skip this step.
+
+Note that the nose of the actuator swivels.  Turn it now so that the head of the #6 screw faces the display side of the cat and the wink of the printed link faces the opposite direction.
+
+With the actuator fully retracted, pull the hind legs forward.  Rotate the printed link counterclockwise until you find the first spot on the spine where the printed link touches it.  This should be just above the hip bone.  Wrap the cable tie around the spine and secure it tightly around the narrow space between two vertebrae.
+
+![Attaching the printed link to the spine](images/attaching_printed_link_to_spine.jpg "Attaching the printed link to the spine")
+
+Manually move the actuator though its entire range of motion and make sure there is no binding.
+
+### Reattaching the Rear Legs
+
+If you removed the rear legs earlier, now is the time to reattach them.  Just reverse the steps given at the beginning.  If you lost a screw or you break something, don't fret.  Cable ties, hot glue, or sculpting epoxy can usually put Humpty Dumpty back together again.  Kludges can be hidden during corpsing.
 
 ### Making the Rod Linkage
 
@@ -219,16 +254,6 @@ Drill a 1/8" hole in the center of the trimmed tip.  Insert the cut end of the r
 Looking from the bottom again, check that the rod is now parallel to the direction of the actuator.  Make adjustments as necessary.  You might need to shave more off the tip of the vertebra, drill the hole deeper, or trim the back end of the rod a bit more.
 
 Holding the front end of the cat, you should be able to manually extend and retract the actuator and the hind legs should move accordingly.  If it's tight, look for ways to reduce the friction, such as further trimming or widening the hole.
-
-### Attaching the Printed Link to the Spine
-
-For the ROD LINK, skip this step.
-
-Note that the nose of the actuator swivels.  Turn it now so that the head of the #6 screw faces the display side of the cat and the wink of the printed link faces the opposite direction.
-
-With the actuator fully retracted, pull the hind legs forward.  Rotate the printed link counterclockwise until you find the first spot on the spine where the printed link touches it.  This should be just above the hip bone.  Wrap the cable tie around the spine and secure it tightly around the narrow space between two vertebrae.
-
-Manually move the actuator though its entire range of motion and make sure there is no binding.
 
 ### Wiring the Push Button
 
@@ -272,6 +297,8 @@ The actuator could be powered in both directions, but that requires a motor driv
 
 For the PRINTED LINK, hook one end of the spring to the screw you installed in the actuator and the other over the wing of the printed link.  The spring should be just slightly stretched when the actuator is fully retracted.  If you push the hind legs back and then release them, the spring should provide enough force to reliably retract the actuator.  You're ready to skip to the next step.
 
+![Attaching the spring with the printed link](images/attaching_the_spring.jpg "Attaching the spring with the printed link")
+
 For the ROD LINK, you need to find the best spot on the spine to anchor the spring.  This takes trial and error.  
 
 Hook one end of the spring over the screw you installed in the actuator.  Holding the other end at the tips of the vertebra, try to find one that provides enough force to reliably retract the actuator but not so much force that extending the actuator is difficult.  The first vertebra above where the link connects is a good first guess.
@@ -280,13 +307,13 @@ You can create a spring anchor point by using another one of the screws that cam
 
 Using your push button, test the kick action.
 
-If the kick seems sluggish or doesn't reach its full extent, the spring is too tight.  Try anchoring the spring on a higher vertebra or add a loop of cable tie to the end of the spring and hook that over the anchor.
+* If the kick seems sluggish or doesn't reach its full extent, the spring is too tight.  Try anchoring the spring on a higher vertebra or add a loop of cable tie to the end of the spring and hook that over the anchor.
 
-If the kick is sharp but the retraction isn't reliable, the spring is too loose.
+* If the kick is sharp but the retraction isn't reliable, the spring is too loose.
 
-If the actuator is shifting around in the rib cage (or bending it), there's too much tension, or the spring is pulling up or down more than forwards.
+* If the actuator is shifting around in the rib cage (or bending it), there's too much tension, or the spring is pulling up or down more than forwards.
 
-Don’t worry if you have to make more holes in the skeleton.  These anchors are on the NON-DISPLAY SIDE, and mistakes are easy to hide or fix in the corpsing process.
+Don't worry if you have to make more holes in the skeleton.  These anchors are on the NON-DISPLAY SIDE, and mistakes are easy to hide or fix in the corpsing process.
 
 ### Hooking Up to a Controller
 
@@ -298,16 +325,16 @@ TBD:  Jeckyll-Labs Twitchboard
 If you're reading the paper version of this, here are the links:
 
 * Oak Lane Cemetery's Undead Kitty https://youtu.be/KJrArt0GAYc
-* Cat Skeletons on Amazon https://www.amazon.com/dp/B00OXD4S5S
-* Car Door Lock Actuators on Amazon https://www.amazon.com/dp/B00P2KANI2
+* cat skeletons on Amazon https://www.amazon.com/dp/B00OXD4S5S
+* car door lock actuators on Amazon https://www.amazon.com/dp/B00P2KANI2
 * 1-inch hinges at The Home Depot https://www.homedepot.com/p/Everbilt-1-in-Zinc-Plated-Non-Removable-Pin-Narrow-Utility-Hinges-2-Pack-29277/314150752
 * springs on Amazon https://www.amazon.com/dp/B07NRKNWT6
 * 12V/6A DC power supply https://www.amazon.com/dp/B00VA2K0MK
 * DC barrel connectors https://www.amazon.com/dp/B072BXB2Y8
 * solder seal heat-shrink butt splice connectors https://www.amazon.com/dp/B08F479K2R
 * 3D printable handheld button case https://www.printables.com/model/430824-handheld-button
-* 3D printable link for Twitchy Cat linkage
-
+* 3D printable link for Twitchy Cat https://github.com/aidtopia/twitchy_cat/blob/main/parts/twitchy_cat_link.scad
+* push buttons on Amazon https://www.amazon.com/dp/B08QV4CWYW
 
 [1]: https://youtu.be/KJrArt0GAYc
 [2]: https://www.amazon.com/dp/B00OXD4S5S
@@ -318,4 +345,5 @@ If you're reading the paper version of this, here are the links:
 [7]: https://www.amazon.com/dp/B072BXB2Y8
 [8]: https://www.amazon.com/dp/B08F479K2R
 [9]: https://www.printables.com/model/430824-handheld-button
-[10]: linkage
+[10]: https://github.com/aidtopia/twitchy_cat/blob/main/parts/twitchy_cat_link.scad
+[11]: https://www.amazon.com/dp/B08QV4CWYW
