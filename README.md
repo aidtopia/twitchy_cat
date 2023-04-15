@@ -17,7 +17,7 @@ A rotting corpse of a cat sporadically kicks its hind legs.  It's gruesome and m
 * [1" hinge with screws][4]
 * [spring][5]
 * 8" cable ties
-* [12V/6A DC power supply][6]
+* [12V/8A DC power supply][6]
 * [DC barrel connectors][7]
 * inline fuse holder with 5A fuse (recommended)
 
@@ -329,7 +329,7 @@ If you're reading the paper version of this, here are the links:
 * car door lock actuators on Amazon https://www.amazon.com/dp/B00P2KANI2
 * 1-inch hinges at The Home Depot https://www.homedepot.com/p/Everbilt-1-in-Zinc-Plated-Non-Removable-Pin-Narrow-Utility-Hinges-2-Pack-29277/314150752
 * springs on Amazon https://www.amazon.com/dp/B07NRKNWT6
-* 12V/6A DC power supply https://www.amazon.com/dp/B00VA2K0MK
+* 12V/8A DC power supply https://www.amazon.com/dp/B00VA2K0MK
 * DC barrel connectors https://www.amazon.com/dp/B072BXB2Y8
 * solder seal heat-shrink butt splice connectors https://www.amazon.com/dp/B08F479K2R
 * 3D printable handheld button case https://www.printables.com/model/430824-handheld-button
