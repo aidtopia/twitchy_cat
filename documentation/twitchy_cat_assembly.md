@@ -340,6 +340,10 @@ _TODO:  Wiring diagram for PicoBoo-like controllers_
 _TODO:  Information about Jeckyll-Labs Twitchboard_  
 _TODO:  Warning against long activations_  
 
+### Posing and Corpsing
+
+If it's all working well, proceed to Suzanne's [posing and corpsing][12] instructions to turn your twitching lump of plastic into an unsettling animatronic.
+
 ## Links
 
 If you're reading the paper version of this, here are the links:
