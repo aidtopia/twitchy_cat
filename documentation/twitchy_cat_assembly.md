@@ -2,7 +2,7 @@
 Adrian McCarthy (mechanics)  
 based on Oak Lane Cemetery's [Undead Kitty][1]
 
-This covers the assembly of the Twitchy Cat mechanism.  Suzanne Coberly has an excellent set of instructions for posing and corpsing the cat.  I'll add a link to that soon.
+This covers the assembly of the Twitchy Cat mechanism.  Suzanne Coberly has an excellent set of instructions for [posing and corpsing][12] the cat.
 
 See https://www.github.com/aidtopia/twitchy_cat for the latest version of this document.
 
@@ -35,7 +35,7 @@ You will also need a controller of some kind.  I'll cover how to put together a 
 
 I'll also show how you can wire your cat to various prop controllers.
 
-To make your skeleton look good and creepy, you'll need additional supplies covered in the corpsing instructions. _TODO: Need link to the corpsing instructions._
+To make your skeleton look good and creepy, you'll need additional supplies covered in the [corpsing instructions][12].
 
 ### Linkage Options
 
@@ -232,7 +232,7 @@ For the ROD LINK, skip this step.
 
 Note that the nose of the actuator swivels.  Turn it now so that the head of the #6 screw faces the display side of the cat and the wing of the printed link faces the opposite direction.
 
-With the actuator fully retracted, pull the hind legs forward.  Rotate the printed link counterclockwise until you find the first spot on the spine where the free end printed is perpendicular to the spine.  This should be just above the hip bone.  Wrap the cable tie around the spine and secure it tightly around the narrow space between two vertebrae.
+With the actuator fully retracted, pull the hind legs forward.  Rotate the printed link counterclockwise until you find the first spot on the spine where the free end is perpendicular to the spine.  This should be just above the hip bone.  Wrap the cable tie around the spine and secure it tightly around the narrow space between two vertebrae.
 
 ![Attaching the printed link to the spine](images/attaching_printed_link_to_spine.jpg "Attaching the printed link to the spine")
 
@@ -334,11 +334,11 @@ Using your push button, test the kick action.
 
 Don't worry if you have to make more holes in the skeleton.  These anchors are on the NON-DISPLAY SIDE, and mistakes are easy to hide or fix in the corpsing process.
 
-### Hooking Up to a Controller
+### Using a Controller
 
-TODO:  Wiring diagram for PicoBoo-like controllers
-TODO:  Information about Jeckyll-Labs Twitchboard
-TODO:  Warn against long activations.
+_TODO:  Wiring diagram for PicoBoo-like controllers_  
+_TODO:  Information about Jeckyll-Labs Twitchboard_  
+_TODO:  Warning against long activations_  
 
 ## Links
 
@@ -355,6 +355,7 @@ If you're reading the paper version of this, here are the links:
 * handheld button case on printables.com https://www.printables.com/model/430824-handheld-button
 * link for Twitchy Cat on printables.com https://www.printables.com/model/455279-twitchy-cat-link
 * push buttons on Amazon https://www.amazon.com/dp/B08QV4CWYW
+* Posing and Corpsing Instructions: https://github.com/aidtopia/twitchy_cat/blob/main/documentation/twitchy_cat_corpsing.pdf
 
 [1]: https://youtu.be/KJrArt0GAYc
 [2]: https://www.amazon.com/dp/B00OXD4S5S
@@ -367,3 +368,4 @@ If you're reading the paper version of this, here are the links:
 [9]: https://www.printables.com/model/430824-handheld-button
 [10]: https://www.printables.com/model/455279-twitchy-cat-link
 [11]: https://www.amazon.com/dp/B08QV4CWYW
+[12]: https://github.com/aidtopia/twitchy_cat/blob/main/documentation/twitchy_cat_corpsing.pdf
