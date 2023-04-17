@@ -23,11 +23,10 @@ There are two additional parts that can be printed with a 3D printer.  They are 
 
 Oak Lane Cemetery used a prop controller circuit from Jekyll-Labs.  As of this writing, Jekyll-Labs offers a newer version of that circuit called the [Twitchboard][8].
 
-
 [1]: https://youtu.be/KJrArt0GAYc
 [2]: https://github.com/aidtopia/twitchy_cat/blob/main/documentation/twitchy_cat_assembly.md
 [3]: https://github.com/aidtopia/twitchy_cat/blob/main/documentation/twitchy_cat_corpsing.docx
-[4]: https://github.com/aidtopia/twitchy_cat/blob/main/parts/twitchy_cat_link.scad
+[4]: https://www.printables.com/model/455279-twitchy-cat-link
 [5]: https://github.com/aidtopia/twitchy_cat/blob/main/parts/twitchy_cat_link.scad
 [6]: https://www.printables.com/model/430824-handheld-button
 [7]: https://github.com/aidtopia/twitchy_cat/blob/main/parts/handheld_button.scad

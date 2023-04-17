@@ -349,11 +349,11 @@ If you're reading the paper version of this, here are the links:
 * car door lock actuators on Amazon https://www.amazon.com/dp/B00P2KANI2
 * 1-inch hinges at The Home Depot https://www.homedepot.com/p/Everbilt-1-in-Zinc-Plated-Non-Removable-Pin-Narrow-Utility-Hinges-2-Pack-29277/314150752
 * springs on Amazon https://www.amazon.com/dp/B07NRKNWT6
-* 12V/8A DC power supply https://www.amazon.com/dp/B00VA2K0MK
-* DC barrel connectors https://www.amazon.com/dp/B072BXB2Y8
-* solder seal heat-shrink butt splice connectors https://www.amazon.com/dp/B08F479K2R
-* 3D-printable handheld button case https://www.printables.com/model/430824-handheld-button
-* 3D-printable link for Twitchy Cat https://github.com/aidtopia/twitchy_cat/blob/main/parts/twitchy_cat_link.scad
+* 12V/8A DC power supply on Amazon https://www.amazon.com/dp/B00VA2K0MK
+* DC barrel connectors on Amazon https://www.amazon.com/dp/B072BXB2Y8
+* solder seal heat-shrink butt splice connectors on Amazon https://www.amazon.com/dp/B08F479K2R
+* handheld button case on printables.com https://www.printables.com/model/430824-handheld-button
+* link for Twitchy Cat on printables.com https://www.printables.com/model/455279-twitchy-cat-link
 * push buttons on Amazon https://www.amazon.com/dp/B08QV4CWYW
 
 [1]: https://youtu.be/KJrArt0GAYc
@@ -365,5 +365,5 @@ If you're reading the paper version of this, here are the links:
 [7]: https://www.amazon.com/dp/B072BXB2Y8
 [8]: https://www.amazon.com/dp/B08F479K2R
 [9]: https://www.printables.com/model/430824-handheld-button
-[10]: https://github.com/aidtopia/twitchy_cat/blob/main/parts/twitchy_cat_link.scad
+[10]: https://www.printables.com/model/455279-twitchy-cat-link
 [11]: https://www.amazon.com/dp/B08QV4CWYW
